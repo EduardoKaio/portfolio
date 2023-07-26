@@ -1,4 +1,21 @@
+const elementos = document.querySelectorAll('[data-anime]');
 
+function animeScroll(){
+    const windowTop = window.scrollY + ((window.innerHeight * 3) / 4);
+    elementos.forEach(function(e){
+        if ((windowTop) > e.offsetTop){
+            e.classList.add('animate')
+        } else {
+            e.classList.remove('animate')
+        }
+    })
+}
+animeScroll();
+if(elementos.length) {
+  window.addEventListener('scroll', function() {
+      animeScroll();
+  });
+}
 
 (function ($) {
   "use strict"; // Start of use strict
@@ -71,5 +88,6 @@ $(function () {
     document.querySelector("#Projeto3").classList.remove("div-invisible");
   })
 });
+
 
 
