@@ -16,6 +16,7 @@ body {
     padding-top: 0;
     padding-left: 17rem;
   }
+
 }
 
 #sobre h1, #habilidades h1, #experiencia h1, #certificacoes h1, #educacao h1,
@@ -137,6 +138,7 @@ h2 {
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
+
 }
 
 section.resume-section {
@@ -156,12 +158,16 @@ section.resume-section .resume-item .resume-date {
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
+
 }
 
 @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
+  }
+  .modal-cont{
+    width: 100% !important;
   }
 }
 
@@ -280,6 +286,7 @@ a:active {
   position: relative;
   top: 160px;
   left: 10px;
+  max-width: 200px;
 }
 
 /* Project cards */
@@ -315,6 +322,10 @@ text-decoration: none;
 .project-link a{
   margin: 0 0.20rem;
 }
+.project-link{
+  position: absolute;
+  right: 2px;
+}
 
 .card:hover .project-info {
   opacity: 1;
@@ -324,12 +335,14 @@ text-decoration: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
 }
 @media (max-width: 600px) {
   .project {
     display: grid;
     grid-template-columns: 1fr;
   }
+
 }
 .container {
   max-width: 1200px;
@@ -384,6 +397,9 @@ text-decoration: none;
 }
 
 
+
+
+
 /* Project Images */
 
 /* project 1 */
@@ -413,4 +429,3 @@ text-decoration: none;
 .card:nth-child(6) {
   background: url(../assets/project/project-three.png) center center/cover;
 }
-
