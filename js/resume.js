@@ -32,6 +32,11 @@ function typeWrite(elemento){
 const titulo = document.querySelector('.efeito-mach');
 typeWrite(titulo);
 
+
+
+
+
+
 (function ($) {
   "use strict"; // Start of use strict
 

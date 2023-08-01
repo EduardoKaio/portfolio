@@ -169,6 +169,7 @@ section.resume-section .resume-item .resume-date {
   .modal-cont{
     width: 100% !important;
   }
+
 }
 
 .bg-primary {
@@ -342,7 +343,12 @@ text-decoration: none;
     display: grid;
     grid-template-columns: 1fr;
   }
-
+  h1{
+    font-size: 5rem;
+  }
+  .gifk{
+    display: none;
+  }
 }
 .container {
   max-width: 1200px;
