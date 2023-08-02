@@ -166,8 +166,8 @@ section.resume-section .resume-item .resume-date {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
-  .modal-cont{
-    width: 100% !important;
+  #projects{
+    padding: 10px;
   }
 
 }
@@ -342,6 +342,10 @@ text-decoration: none;
   .project {
     display: grid;
     grid-template-columns: 1fr;
+    
+  }
+  #projects{
+    padding: 5px;
   }
   h1{
     font-size: 5rem;
