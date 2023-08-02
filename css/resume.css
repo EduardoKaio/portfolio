@@ -415,23 +415,23 @@ text-decoration: none;
 
 /* Project 2 */
 .card:nth-child(2) {
-  background: url(../img/lectio.png) center center/cover;
+  background: url(../img/autentication.png) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(3) {
-  background: url(../img/autentication.png) center center/cover;
+  background: url(../img/etal.png) center center/cover;
 }
 .card:nth-child(4) {
-  background: url(../img/worldcup.png) center center/cover;
+  background: url(../img/lectio.png) center center/cover;
 }
 
 /* Project 2 */
 .card:nth-child(5) {
-  background: url(../img/worldmath.jpeg) center center/cover;
+  background: url(../img/worldcup.png) center center/cover;
 }
 
 /* Project 3 */
 .card:nth-child(6) {
-  background: url(../assets/project/project-three.png) center center/cover;
+  background: url(../img/worldmath.jpeg) center center/cover;
 }
