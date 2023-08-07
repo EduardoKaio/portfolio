@@ -144,7 +144,7 @@ h2 {
 
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
-  padding-top: 5rem !important;
+  padding-top: 5rem ;
   padding-bottom: 5rem !important;
 }
 
@@ -159,6 +159,7 @@ section.resume-section .resume-item .resume-date {
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
+
 
 }
 
@@ -338,6 +339,25 @@ text-decoration: none;
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .foto-mobile{
+    display: inline-block !important;
+    padding: 0 16px;
+    width: 60%;
+    margin:auto
+  }
+  #sobre h1{
+    margin-bottom: 0;
+  }
+  .foto-mobile img{
+    border: #dadada 0.1px solid;
+    border-radius: 5px;
+    padding: 2px;
+
+  }
+  .gifk{
+    display: none;
+  }
+
 }
 @media (max-width: 600px) {
   .project {
@@ -354,6 +374,35 @@ text-decoration: none;
   .gifk{
     display: none;
   }
+  #sobre{
+    padding-top:1rem;
+  }
+  .spanKaio{
+    color: #17a2b8 !important;
+  }
+  #sobre .text-info{
+    display: none;
+  }
+  .foto-mobile{
+    display: inline-block !important;
+    padding: 0 16px;
+    width: 85%;
+    margin:auto
+  }
+  #sobre h1{
+    margin-bottom: 0;
+  }
+  .foto-mobile img{
+    border: #dadada 0.1px solid;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  .list-icons {
+    font-size: 2.9rem;
+  }
+}
+.foto-mobile{
+  display: none;
 }
 .container {
   max-width: 1200px;
