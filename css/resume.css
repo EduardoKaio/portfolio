@@ -144,7 +144,7 @@ h2 {
 
 section.resume-section {
   border-bottom: 1px solid #dee2e6;
-  padding-top: 5rem ;
+  padding-top: 6rem !important;
   padding-bottom: 5rem !important;
 }
 
@@ -373,9 +373,6 @@ text-decoration: none;
   }
   .gifk{
     display: none;
-  }
-  #sobre{
-    padding-top:1rem;
   }
   .spanKaio{
     color: #17a2b8 !important;
