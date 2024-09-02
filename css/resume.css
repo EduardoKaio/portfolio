@@ -475,37 +475,45 @@ text-decoration: none;
 
 
 .card:nth-child(3) {
-  background: url(../img/autentication.png) center center/cover;
+  background: url(../img/devops-process.png) center center/cover;
 }
 
 .card:nth-child(4) {
-  background: url(../img/todo-react.png) center center/cover;
+  background: url(../img/autentication.png) center center/cover;
 }
 
 .card:nth-child(5) {
-  background: url(../img/buscadorCEP-react.png) center center/cover;
+  background: url(../img/base\ defense.png) center center/cover;
 }
 
 .card:nth-child(6) {
-  background: url(../img/etal.png) center center/cover;
+  background: url(../img/todo-react.png) center center/cover;
 }
 
 .card:nth-child(7) {
+  background: url(../img/buscadorCEP-react.png) center center/cover;
+}
+
+.card:nth-child(8) {
+  background: url(../img/etal.png) center center/cover;
+}
+
+.card:nth-child(9) {
   background: url(../img/delegadoJava.png) center center/cover;
 }
 
 
-.card:nth-child(8) {
+.card:nth-child(10) {
   background: url(../img/javazoo.png) center center/cover;
 }
 
-.card:nth-child(9) {
+.card:nth-child(11) {
   background: url(../img/lectio.png) center center/cover;
 }
 
-.card:nth-child(10) {
+.card:nth-child(12) {
   background: url(../img/worldcup.png) center center/cover;
 }
-.card:nth-child(11) {
+.card:nth-child(13) {
   background: url(../img/worldmath.jpeg) center center/cover;
 }
